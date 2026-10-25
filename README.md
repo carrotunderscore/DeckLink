@@ -13,6 +13,13 @@ också i andra program.
 
 ![DeckLink-ikon](screenshots/app_icon.png)
 
+## Ladda ner
+
+[**Ladda ner DeckLink.apk**](DeckLink.apk) (2,4 MB) – filen ligger i repots rot.
+
+Öppna den på telefonen och tillåt installation från okänd källa när Android
+frågar. Vill du bygga själv i stället, se [Bygga appen](#bygga-appen).
+
 ## Skärmbilder
 
 | Startskärmen | Spelkontroll | Tangentbord |
@@ -67,8 +74,11 @@ också i andra program.
 
 ### Färdig APK
 
+Ladda ner [`DeckLink.apk`](DeckLink.apk) i repots rot och öppna den på
+telefonen, eller installera via adb:
+
 ```powershell
-adb install -r android\app\build\outputs\apk\debug\app-debug.apk
+adb install -r DeckLink.apk
 ```
 
 Installera om du redan har en äldre DeckLink med annan signeringsnyckel:
