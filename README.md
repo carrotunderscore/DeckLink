@@ -1,6 +1,7 @@
 # DeckLink
 
-Telefonen som trådlös handkontroll för **Media Library** på datorn: styrplatta
+Telefonen som trådlös handkontroll för
+[**Media Library**](https://github.com/carrotunderscore/MediaLibrary) på datorn: styrplatta
 med klick och scroll, ett spelkontrolläge med D-pad och A/B, och ett
 tangentbord för att skriva i sökfält och inställningar.
 
